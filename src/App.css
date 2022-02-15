@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* css của thư viện tabs accessible-tabs react
+Public
+Code
+Issues
+ */
+.tabs__tab-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tabs__trigger {
+  background: #dc3545;
+  border: none;
+  outline: none;
+  border-bottom: none;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  margin: 0 5px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.tabs__trigger.is-selected {
+  background: #ff0;
+  color: #000;
+}
+.tabs__panel {
+  display: inherit;
+}
+.tabs__panel.is-hidden {
+  display: none;
+}
+h3 {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+:focus {
+  box-shadow: 0 0 4px dodgerblue;
+  outline: none;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+  color: #fff!important;
+}
+.ant-layout-header {
+  padding: 0!important;
+}
+@media only screen and (min-width: 1000px) and (max-width: 1024px) {
+    .CustomTabContent_left__bP3zs {
+        width: 40%!important;
+    }
+
+  }
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  .CustomTabContent_row__UGbdm {
+    flex-direction: column!important;
+  }
+  .NortPage_main__WWazd {
+    height: 100% !important;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1024px) {
+    .left {
+        width: 40%!important;
+    }
+  }
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  .row{
+    flex-direction: column!important;
+  }
+  .NortPage_main__WWazd {
+    height: 100% !important;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .row{
+    flex-direction: column!important;
+  }
+  .NortPage_main__WWazd {
+    height: 100% !important;
+  }
+  .TimerCountDown_timer__hx32j {
+    flex-direction: column!important;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    .tabs__tab-list {
+        width: 100%!important;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    .tabs__tab-list {
+        flex-direction: column!important;
+        align-items: center!important;
+
+    }
+    .tabs__tab-list-item {
+        text-align: center!important;
+        margin: 20px 0!important;
+        width: 24%!important;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+    .tabs__tab-list {
+        flex-direction: column!important;
+        align-items: center!important;
+
+    }
+    .tabs__tab-list-item {
+        text-align: center!important;
+        margin: 20px 0!important;
+        width: 30%!important;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (min-width: 200px) and (max-width: 300px) {
+    .tabs__tab-list {
+        flex-direction: column!important;
+        align-items: center!important;
+
+    }
+    .tabs__tab-list-item {
+        text-align: center!important;
+        margin: 20px 0!important;
+        width: 40%!important;
+        font-size: 12px!important;
+    }
 }

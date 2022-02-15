@@ -1,0 +1,306 @@
+.timer {
+    display: flex;
+    justify-content: space-between;
+}
+.timerLeft {
+    width: 45%;
+}
+.timerText {
+color: #fff;
+font-size: 18px;
+font-weight: 600;
+margin: 10px 0;
+}
+.timerText > span {
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+}
+.timerLottery {
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    border: 2px solid #999;
+    border-radius: 4px;
+    text-align: center;
+    font: 38px/48px 'DIGITAL', Helvetica;
+    background: linear-gradient(90deg, #000, #555);
+    color: #fff;
+    text-shadow: 0 0 6px #ff0;
+    list-style: none;
+}
+p {
+    font-size: 18px;
+    color: #e83e8c;
+    margin: 20px 0;
+    word-wrap: break-word;
+}
+.text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.select {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+}
+.option {
+    font-size: 20px;
+}
+.paraph {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.Input {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+}
+.btn {
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.quote {
+    color: #988d8d;
+    font-size: small;
+}
+.success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    border: none;
+    outline: none;
+}
+.success:hover {
+    background-color: #708a76;
+    color: #fff;
+    
+}
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.table > th , .table > th > td {
+    text-align: left;
+    padding: 10px;
+    border-color: #454d55;
+  }
+thead {
+    border:  1px solid black;
+}
+tr > td {
+    border:  1px solid black;  
+}
+.timerRight > .overflow >  table > tbody > tr > td{
+    color: #fff!important;
+    font-weight: 500;
+}
+.timerRight > .overflow >  table  > thead > tr > th{
+    color: #fff;
+    font-size: 20px;
+}
+tr > td{
+    font-size: 16px;
+}
+tr > td {
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: #95999c;
+}
+tr:hover {
+    color: red;
+}
+.overflow {
+    overflow-x: auto;
+}
+.left {
+    width: 570px;
+}
+.right {
+  
+    width: 600px;
+
+}
+.box {
+    width: 570px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    margin: 0 auto;
+}
+.boxRow {
+    display: flex;
+}
+.dateSelect {
+    width: 416px;
+}
+.SelectDate {
+    width: 50%;
+    margin-left: 20px;
+}
+.dateSelect > p > span {
+    color: #fff;
+    font-size: 16px;
+}
+.dateLogo {
+    display: flex;
+    justify-content: flex-start;
+}
+.dateLogo > a:nth-child(2) {
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.title {
+    color: #fff!important;
+    font-size: large!important;
+    font-weight: 700!important;
+    padding: 7px!important;
+    background: #ea6e25!important;
+    text-align: center;
+    margin: 10px 0;
+
+}
+tfoot > td > tr {
+    text-align: center;
+}
+tfoot > tr:nth-child(2) > td {
+    padding: 10px 0;
+}
+.right > h3 {
+    text-align: center;
+}
+.timerRight {
+    width: 45%;
+    overflow-y: scroll;
+    position:relative;
+    height: 600px;
+}
+.progress {
+    background-color: #ffc107 !important;
+    color:#fff;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+}
+table > tbody > span {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 0 20px;
+}
+.sectionRow {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sectionLeft {
+    width: 50%;
+    margin: 20px 0;
+}
+.section > span{
+    color: #ddd;
+    font-size: 20px;
+    margin: 20px 0 20px 20px;
+    border-bottom: 1px solid #ff0;
+    cursor: pointer;
+}
+table > thead > tr > th 
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+tr > td , tr > td:first-child  {
+    color: #000;
+}
+tr > td:hover {
+    color: rgb(161, 31, 31);
+}
+.sectionRight {
+    width: 30%;
+}
+.Collapse {
+    background-color: #222f3b;
+    color: #fff;
+    font-size: 16px;
+
+}
+@media only screen and (min-width: 1000px) and (max-width: 1024px) {
+    .timer {
+        flex-direction: column!important;
+
+    }
+    .timerLeft  , .timerRight {
+        width: 100%!important;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+    .timer {
+        flex-direction: column!important;
+
+    }
+    .timerLeft  , .timerRight {
+        width: 100%!important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    .row{
+      flex-direction: column!important;
+    }
+    .timerLeft  , .timerRight {
+        width: 100%!important;
+    }
+  }
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    .timer {
+        flex-direction: column!important;
+
+    }
+    .timerLeft  , .timerRight {
+        width: 100%!important;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    .timer {
+        flex-direction: column!important;
+
+    }
+    .timerLeft  , .timerRight {
+        width: 100%!important;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+    .timer {
+        flex-direction: column!important;
+
+    }
+    .timerLeft  , .timerRight {
+        width: 100%!important;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 300px) {
+    .timer {
+        flex-direction: column!important;
+
+    }
+    .timerLeft  , .timerRight {
+        width: 100%!important;
+    }
+}

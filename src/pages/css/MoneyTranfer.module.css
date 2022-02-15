@@ -1,0 +1,289 @@
+.main {
+  background-color: #222f3b;
+  width: 100%;
+  height: 1000px;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+}
+.MoneyTranFerLeft {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.MoneyTranFerLeft,
+.MoneyTranFerRight {
+  width: 46%;
+}
+.MoneyTranFerLeft > form > h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.MoneyTranFerLeft > form > .formGroup > p {
+  color: #fff;
+  font-size: 20px;
+}
+.MoneyTranFerLeft > form > .formGroup > input {
+  width: 70%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.MoneyTranFerLeft > form > .formGroup > .select {
+  width: 70%;
+  font-size: 14px;
+  padding: 8px 0;
+  border-radius: 5px;
+}
+.option {
+  font-size: 16px;
+}
+.MoneyTranFerLeft > form > button {
+  margin: 20px 0;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.containerFix {
+  display: flex;
+  justify-content: center;
+  overflow-x: scroll;
+  width: 700px;
+}
+.containerFix > table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.containerFix > table > thead > tr > th {
+  border: 1px solid #3e3b3b;
+  color: #fff;
+  background-color: #434950;
+  font-size: 18px;
+}
+.containerFix > table > td {
+  border: 1px solid #ddd;
+}
+.containerFix > table > tbody > tr > td {
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+.containerFix > table > tbody > tr > td:hover {
+  color: antiquewhite;
+}
+.formGroup > p {
+  margin-top: 1em;
+}
+.MoneyTranFerRight > h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .main {
+    height: 100% !important;
+  }
+  .containerFix {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column !important;
+  }
+  .MoneyTranFerLeft,
+  .MoneyTranFerRight {
+    width: 60% !important;
+    margin-left: 20px;
+  }
+  .containerFix > table {
+    width: 100%;
+  }
+
+  .containerFix > table > thead > tr > th {
+    font-size: 14px !important;
+  }
+  .containerFix > table > tbody > tr > td {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  .main {
+    height: 100% !important;
+  }
+  .containerFix {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column !important;
+  }
+  .MoneyTranFerLeft,
+  .MoneyTranFerRight {
+    width: 60% !important;
+    margin-left: 20px;
+  }
+  .containerFix > table {
+    width: 100%;
+  }
+
+  .containerFix > table > thead > tr > th {
+    font-size: 14px !important;
+  }
+  .containerFix > table > tbody > tr > td {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .main {
+    height: 100% !important;
+  }
+  .containerFix {
+    width: 100%;
+  }
+  .container {
+    width: 100% !important;
+  }
+  .containerFix > table {
+    width: 100%;
+  }
+
+  .containerFix > table > thead > tr > th {
+    font-size: 12px !important;
+  }
+  .row {
+    flex-direction: column !important;
+  }
+  .MoneyTranFerLeft,
+  .MoneyTranFerRight {
+    width: 60% !important;
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .main {
+    height: 100% !important;
+  }
+  .containerFix {
+    width: 100% !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+  .containerFix > table {
+    width: 100%;
+  }
+
+  .containerFix > table > thead > tr > th {
+    font-size: 12px !important;
+  }
+  .containerFix > table > tbody > tr > td {
+    font-size: 12px !important;
+  }
+  .row {
+    flex-direction: column !important;
+  }
+  .MoneyTranFerLeft,
+  .MoneyTranFerRight {
+    width: 80% !important;
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  .main {
+    height: 100% !important;
+  }
+  .containerFix {
+    width: 100% !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+  .containerFix > table {
+    width: 100%;
+  }
+
+  .containerFix > table > thead > tr > th {
+    font-size: 12px !important;
+  }
+  .containerFix > table > tbody > tr > td {
+    font-size: 12px !important;
+  }
+  .row {
+    flex-direction: column !important;
+  }
+  .MoneyTranFerLeft,
+  .MoneyTranFerRight {
+    width: 90% !important;
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  .main {
+    height: 100% !important;
+  }
+  .containerFix {
+    width: 100% !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+  .containerFix > table {
+    width: 100%;
+  }
+
+  .containerFix > table > thead > tr > th {
+    font-size: 12px !important;
+  }
+  .containerFix > table > tbody > tr > td {
+    font-size: 12px !important;
+  }
+  .row {
+    flex-direction: column !important;
+  }
+  .MoneyTranFerLeft,
+  .MoneyTranFerRight {
+    width: 90% !important;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 300px) {
+  .main {
+    height: 100% !important;
+  }
+  .containerFix {
+    width: 100% !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+  .containerFix > table {
+    width: 100%;
+  }
+
+  .containerFix > table > thead > tr > th {
+    font-size: 12px !important;
+  }
+  .containerFix > table > tbody > tr > td {
+    font-size: 12px !important;
+  }
+  .row {
+    flex-direction: column !important;
+  }
+  .MoneyTranFerLeft,
+  .MoneyTranFerRight {
+    width: 90% !important;
+    margin-left: 20px;
+  }
+}

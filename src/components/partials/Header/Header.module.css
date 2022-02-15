@@ -1,0 +1,304 @@
+.bottomHeader {
+    background-color: #282c35;
+}
+.logo {
+    height: 54px;
+    width: auto;
+    cursor: pointer;
+}
+.ul {
+margin-bottom:  0;
+padding: 0;
+
+}
+.li:first-child {
+    margin-left: 0!important;
+}
+.li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.a {
+    color: #fff;
+    font-weight: bold;
+}
+.sub {
+    display: none;
+}
+
+@media only screen and (min-width:1600px) and (max-width:1680px) {
+	.a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .logo {
+        width:100%;
+    }
+}
+@media only screen and (min-width:1440px) and (max-width:1600px) {
+	.a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .logo {
+        width:100%;
+    }
+}
+@media only screen and (min-width:1400px) and (max-width:1440px) {
+	.a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .logo {
+        width:100%;
+    }
+}
+@media only screen and (min-width:1366px) and (max-width:1440px) {
+	.a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .logo {
+        width:100%;
+    }
+}
+@media only screen and (min-width:1300px) and (max-width:1366px) {
+	.a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .logo {
+        width:100%;
+    }
+}
+@media only screen and (min-width:1280px) and (max-width:1300px) {
+	.a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .logo {
+        width:100%;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width:1160px) {
+	.logo {
+        width:100%;
+    }
+    .a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width:800px) and (max-width:1024px) {
+	.logo {
+        width:100%;
+    }
+    ul > .li {
+        display: inline-block;
+        margin-left: 10px!important;
+    }
+    .a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+    }
+  
+}
+@media only screen and (min-width:600px) and (max-width:768px) {
+	.logo {
+        width:100%;
+    }
+    .a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .logo {
+        width:100%;
+    }
+  
+}
+@media only screen and (min-width:600px) and (max-width:768px) {
+    .navbar {
+        display: none!important;
+    }
+    .sub {
+        display: block!important;
+        position: relative;
+        color: #fff;
+        font-size: 40px;
+        top: 10px;
+    }
+    .subNav {
+        z-index: 100;
+        display: block;
+        width: 50%;
+        position: fixed;
+        left: 0;
+        height:100vh;
+        background-color: #001529;
+    }
+    .subNav > .ul {
+        text-align: center;
+       
+    }
+    .subNav > .ul > .li {
+        display: block;
+        margin-top: 20px;
+    }
+    .subNav > .ul > .li > .a {
+        font-size: 20px;
+    }
+    .logo {
+        width:100%;
+    }
+}
+@media only screen and (min-width:500px) and (max-width: 600px) {
+	.navbar {
+        display: none!important;
+    }
+    .sub {
+        display: block!important;
+        position: relative;
+        color: #fff;
+        font-size: 40px;
+        top: 10px;
+    }
+    .subNav {
+        z-index: 100;
+        display: block;
+        width: 50%;
+        position: fixed;
+        left: 0;
+        height:100vh;
+        background-color: #001529;
+    }
+    .subNav > .ul {
+        text-align: center;
+       
+    }
+    .subNav > .ul > .li {
+        display: block;
+        margin-top: 20px;
+    }
+    .subNav > .ul > .li > .a {
+        font-size: 12px;
+    }
+    .logo {
+        width:100%;
+    }
+}
+@media only screen and (min-width:400px) and (max-width: 500px) {
+	.navbar {
+        display: none!important;
+    }
+    .logo {
+        width:100%;
+    }
+    .sub {
+        
+        display: block!important;
+        position: relative;
+        color: #fff;
+        font-size: 40px;
+        top: 10px;
+    }
+    .subNav {
+        z-index: 100;
+        display: block;
+        width: 50%;
+        position: fixed;
+        left: 0;
+        height:100vh;
+        background-color: #001529;
+    }
+    .subNav > .ul {
+        text-align: center;
+       
+    }
+    .subNav > .ul > .li {
+        display: block;
+        margin-top: 20px;
+    }
+    .subNav > .ul > .li > .a {
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width: 400px) {
+	.navbar {
+        display: none!important;
+    }
+    .logo {
+        width:100%;
+    }
+    .sub {
+        display: block!important;
+        position: relative;
+        color: #fff;
+        font-size: 40px;
+        top: 10px;
+    }
+    .subNav {
+        z-index: 100;
+        display: block;
+        width: 60%;
+        position: fixed;
+        left: 0;
+        height:100vh;
+        background-color: #001529;
+    }
+    .subNav > .ul {
+        text-align: center;
+       
+    }
+    .subNav > .ul > .li {
+        display: block;
+        margin-top: 10px;
+    }
+    .subNav > .ul > .li > .a {
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width: 300px) {
+	.navbar {
+        display: none!important;
+    }
+    .logo {
+        width:100%;
+    }
+    .sub {
+        display: block!important;
+        position: relative;
+        color: #fff;
+        font-size: 40px;
+        top: 10px;
+    }
+    .subNav {
+        z-index: 100;
+        display: block;
+        width: 60%;
+        position: fixed;
+        left: 0;
+        height:100vh;
+        background-color: #001529;
+    }
+    .subNav > .ul {
+        text-align: center;
+       
+    }
+    .subNav > .ul > .li {
+        display: block;
+        margin-top: 10px;
+    }
+    .subNav > .ul > .li > .a {
+        font-size: 10px;
+    }
+}
+/* iPads (landscape) ----------- */

@@ -1,0 +1,128 @@
+.tabContent , .tabMiddle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tabContent  {
+    max-height: 200px!important;
+    position: relative;
+}
+
+.tabItem {
+    width:130px;
+    margin: 10px 0;
+    margin-left: 10px!important;
+    cursor: pointer;
+}
+
+.tabItem:first-child {
+    margin-left:0;
+}
+.tabItem > a > img {
+    width: 100%;
+}
+.right > a{
+    width: 20%!important;
+}
+.right {
+    margin: 0 20px;
+}
+
+.right  > a > img {
+    width: 100%!important;
+    cursor: pointer;
+}
+.row {
+    display: flex;
+    justify-content:space-evenly;
+}
+.btnLoadMore {
+    font-weight: 400;
+    border: 1px solid rgb(13, 107, 194);
+    transition: all 0.4s;
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.btnLoadMore:hover {
+    background: linear-gradient(to right, gold, darkorange);
+    border: 1px solid darkgoldenrod;
+    font-weight: bold;
+}
+.text {
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 920px) {
+    .tabItem {
+        width: 90px!important;
+    }
+  }
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .tabItem {
+        width: 90px!important;
+    }
+    .right {
+        margin: 0!important;
+    }
+    .tabContent {
+        margin: 0 10px!important;
+        left: -2%!important;
+    }
+}
+@media only screen and (min-width:500px) and (max-width: 600px) {
+	.tabItem {
+        width: 90px!important;
+    }
+    .right {
+        margin: 0!important;
+    }
+    .tabContent {
+        margin: 0 10px!important;
+        left: -2%!important;
+    }
+}
+@media only screen and (min-width:400px) and (max-width: 500px) {
+	.tabItem {
+        width: 90px!important;
+    }
+    .right {
+        margin: 0!important;
+    }
+    .tabContent {
+        margin: 0 10px!important;
+        left: -2%!important;
+    }
+}
+@media only screen and (min-width:300px) and (max-width: 400px) {
+	.tabItem {
+        width: 90px!important;
+    }
+    .right {
+        margin: 0!important;
+    }
+    .tabContent {
+        margin: 0 10px!important;
+        left: -2%!important;
+    }
+}
+@media only screen and (min-width:200px) and (max-width: 300px) {
+	.tabItem {
+        width: 90px!important;
+    }
+    .right {
+        margin: 0!important;
+    }
+    .tabContent {
+        margin: 0 10px!important;
+        left: -2%!important;
+    }
+  
+}

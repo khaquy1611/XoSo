@@ -1,0 +1,84 @@
+.headerTop{
+    background-color: #282c35!important;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(225,225,225,.2);
+}
+.btn1 , .btn2 {
+    font-weight: 500;
+}
+
+
+@media only screen and (min-width:1600px) and (max-width:1680px) {
+    .btn1 , .btn2 {
+        font-size: 12px;  
+    }
+	.btn1 {
+        margin-right: 2%!important;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width:1440px) and (max-width:1600px) {
+	.btn1 {
+        margin-right: 4%!important;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width:1400px) and (max-width:1440px) {
+    .antColBtn {
+        margin-right: 4%!important;
+    }
+}
+@media only screen and (min-width:1360px) and (max-width:1366px) {
+	.antColBtn {
+        margin-right: 12%!important;
+    }
+}
+@media only screen and (min-width:1280px) and (max-width:1300px) {
+	.antColBtn {
+        margin-right: 12%!important;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width:1160px) {
+	.antColBtn {
+        margin-right: 30%!important;
+    }
+}
+@media only screen and (min-width:800px) and (max-width:1024px) {
+	.antColBtn {
+        margin-right: 50%!important;
+    }
+    .antColBtn2 {
+        margin-left: 20%!important;
+    }
+    .antHeaderColumn {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:768px) {
+	.headerTop {
+        display: none;
+    }
+  
+}
+@media only screen and (min-width:500px) and (max-width: 600px) {
+	.headerTop {
+        display: none;
+    }
+}
+@media only screen and (min-width:400px) and (max-width: 500px) {
+	.headerTop {
+        display: none;
+    }
+}
+@media only screen and (min-width:300px) and (max-width: 400px) {
+	.headerTop {
+        display: none;
+    }
+}
+@media only screen and (min-width:200px) and (max-width: 300px) {
+	.headerTop {
+        display: none;
+    }
+}
